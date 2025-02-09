@@ -45,6 +45,8 @@ In this model, you can simulate inner and outer race faults. To do so, go to:
 1. Parameter.m
 2. Modify the lines Cdin or Cdout respectively if you want to model an inner ring fault or an outer ring one.
 
+![fault](FaultSimulation.png)
+
 Keep the system's physics in mind. If you use extreme geometries, the model may fail to converge at certain time steps due to the solver's precision limitations (a fourth-order Runge-Kutta numerical method). 
 
 ## Citation 
