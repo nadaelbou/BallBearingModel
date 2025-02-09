@@ -24,9 +24,9 @@ The model has been developped using MATLAB_R2022b. Therefore, a version of MATLA
 A radial lumped-parameter model is developed on MATLAB/Simulink for a single ball in contact with the bearing races under a load distribution as a function of its angular position on the races. This simplified radial model identifies fault signatures in frequency domain for inner and outer ring defects. 
 
 As given, the model is discretized from the rotor to the shaft and owns 4 degrees of freedom. The vibration motion for multiple mass points u$_i$ is described by the second law of Newton as:
-$$
-\mathbf{M} \cdot \frac{\mathrm{d}^{2}\bm{u}}{\mathrm{d}t^{2}} + \mathbf{C} \cdot \frac{\mathrm{d}\bm{u}}{\mathrm{d}t} + \mathbf{K} \cdot \bm{u} = \sum{\bm{F}_{\mathrm{ext}}}.
-$$
+M ⋅ d²u/dt² + C ⋅ du/dt + K ⋅ u = ∑F_ext
+
+
 $\mathbf{C}$ is the damping matrix, $\mathbf{K}$ is the stiffness matrix and $\mathbf{M}$ the mass matrix. $\bm{F}_{\mathrm{ext}}$ includes all forces applied on the bearing, i.e., the weight of the different mass points, the weight of the rotor in the load zone of the bearing and the radial electromagnetic forces applied by the rotor.
 
 You can study the vibrations-displacement of the rotor/inner race system, the ball or the outer race. The function inside the Simulink file models the dynamic behavior of a rolling element bearing system. It calculates the second derivative of displacement (u) for a multi-degree-of-freedom system, considering:
