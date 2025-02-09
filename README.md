@@ -45,6 +45,12 @@ In this model, you can simulate inner and outer race faults. To do so, go to:
 
 Keep the system's physics in mind. If you use extreme geometries, the model may fail to converge at certain time steps due to the solver's precision limitations (a fourth-order Runge-Kutta numerical method). 
 
+## Citation 
+```
+N. E. Bouharrouti, F. Martin and A. Belahcen, "Radial Lumped-parameter Model of a Ball Bearing for Simulated Fault Signatures," 2023 IEEE 14th International Symposium on Diagnostics for Electrical Machines, Power Electronics and Drives (SDEMPED), Chania, Greece, 2023, pp. 403-409, doi: 10.1109/SDEMPED54949.2023.10271443.
+```
+
+
 
 
 
