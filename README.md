@@ -1,6 +1,6 @@
 # Lumped-Parameter Ball Bearing Model 
 
-In this repository, a 1D bearing model is provided, inspired by the article [IEEE 10271443](https://ieeexplore.ieee.org/document/10271443), except that it is given with 4 degrees of freedom instead of 5 in the article. The model has been carefully studied for a specific setup, and its hyperparameters can be adjusted to fit the geometry of any bearing. Some hyperparameters have been modified for privacy reasons.
+In this repository, a 1D bearing model is provided, inspired by the article ['Radial Lumped-parameter Model of a Ball Bearing for Simulated Fault Signatures'](https://ieeexplore.ieee.org/document/10271443), except that it is given with 4 degrees of freedom instead of 5 in the article. The model has been carefully studied for a specific setup, and its hyperparameters can be adjusted to fit the geometry of any bearing. Some hyperparameters have been modified for privacy reasons.
 
 This model is free to use, modify, and improve for any application. It represents a humble attempt at a lumped-parameter model of ball bearings, and I welcome feedback, suggestions, and improvements. If you build upon this work, a reference to the cited article would be greatly appreciated.
 
